@@ -70,9 +70,9 @@ body {
 .footer1 {
     background-color: #D13176;
     margin-top: 10px;
-    text-align: center; /* Выравниваем текст по центру */
-    padding-bottom: 20px; /* Отступ снизу для линии */
-    position: relative; /* Добавляем относительное позиционирование */
+    text-align: center; 
+    padding-bottom: 20px; 
+    position: relative; 
 }
 
 
