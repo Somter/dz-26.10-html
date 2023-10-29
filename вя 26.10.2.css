@@ -1,25 +1,30 @@
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:300;
+    font-weight: 300;
     color: white;
 }
+
 div {
-    width: 20%; /* Пример: фиксированная ширина в 20% */
-    margin-left: 10px; /* Устанавливаем отступ слева */
+    width: 15%;
+    margin-left: 10px;
     background-color: dimgrey;
 }
 
-.image-list-item {
+ul {
     list-style: none;
+    padding: 0;
+}
+
+.image-list-item {
     display: flex;
-    align-items: center; /
+    align-items: center;
+    padding: 10px;
 }
 
 .image-list-item img {
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
-
 .image-list-item:hover {
-    background-color: rgb(66, 66, 66);;
+    background-color: rgb(66, 66, 66);
 }
