@@ -7,18 +7,26 @@ body {
 
 .header {
     background-color: #E91E63;
-    padding: 20px;
-    padding-left: 40px;
+    border: 3px solid rgb(220, 188, 7);
+    padding: 10px;
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif; 
+    font-size: 36px; 
+    font-weight: bold; 
+    border-radius: 10px;
 }
 
 .menu {
-    margin-top: 10px;
+    margin-top: 5px;
     background-color: #D13176;
     padding: 10px;
     padding-left: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(220, 188, 7);
 }
 
 .asible_block {
+    margin-top: 10px;
     width: 25%;
     float: left;
 }
@@ -30,10 +38,11 @@ body {
 }
 
 .main_content {
+    float: left;
     background-color: #ffc79a;
     width: 50%;
     margin-top: 10px;
-    margin-left: 23%;
+    margin-left: 0%;
     padding: 0 10px 0 10px;
 }
 
@@ -48,16 +57,15 @@ body {
 .sec {
     margin-top: 25px;
 }
-
 .right-aside {
-    position: absolute;
-    bottom: 32%;
-    right: 9px;
-    background-color: #ffc79a;
+    float: right; 
+    margin-top: 10px;
+    margin-right: 10px; 
+    background-color: #e87e28;
     padding: 40px;
-    height: 38%;
-    
+    height: 300px;
 }
+
 
 .second_aside {
     background-color: #ffc79a;
@@ -69,10 +77,9 @@ body {
 
 .footer1 {
     background-color: #D13176;
-    margin-top: 10px;
+    margin-top: 500px;
     text-align: center; 
     padding-bottom: 20px; 
-    position: relative; 
 }
 
 
@@ -104,7 +111,6 @@ ul{
 }
 
 .line {
-    position: absolute; 
     bottom: 80px;
     left: 0;
     right: 0; 
@@ -112,3 +118,7 @@ ul{
     margin-left: 10%; 
     border: 0,5px solid aqua;
 }
+
+.toys_1{
+    display: inline-block;
+} 
